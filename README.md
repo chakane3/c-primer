@@ -29,6 +29,11 @@ Terminal:
 make foo
 ```
 
+Or we coudl use:
+```c++
+g++ -o foo foo.cpp
+```
+
 Then we would run ./foo to see output
 
 
@@ -39,3 +44,18 @@ C++ provides 2 data types that give access to an item of data.
 <b>*</b> is used to specify a pointer data type. This defines a data type that is the <b>address</b> of an item of a specified data type. 
 For example, <b>int *</b> specifies a data type that is the address of an integer<br></br>
 <b>&</b> is a reference type which is used to create a new name or alias for a data item. For example, <b>float &</b> specifies an object that references a float item. 
+
+
+## Passing Parameters between command line and executable
+In our main function we may see this:
+
+```c++
+int main(int argc, char *argv[])
+{
+    // code ...
+}
+
+```
+
+argc is an integer that tells us how many parameters were passed into the application. argv is an array of pointers to C strings in memory.
+
