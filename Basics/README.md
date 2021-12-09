@@ -3,6 +3,7 @@ We can decalre a constant in 2 ways
 
 <details>
 <summary>declaring contstants 1</summary>
+
 ```c++
 #include <iostream>
 #define NUMBER 4
@@ -18,7 +19,7 @@ int main()
 </details>
 
 <details>
-<summary>declaring contstants 1</summary>
+<summary>declaring contstants 2</summary>
 
 ```c++
 int main() 
