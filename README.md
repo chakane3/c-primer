@@ -29,6 +29,8 @@ Terminal:
 make foo
 ```
 
+Then we would run ./foo to see output
+
 
 
 
