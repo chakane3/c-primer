@@ -29,12 +29,18 @@ Terminal:
 make foo
 ```
 
-Or we coudl use:
+Or we could use:
 ```c++
 g++ -o foo foo.cpp
+// or gcc?
 ```
-
 Then we would run ./foo to see output
+
+The difference between make and gcc is that gcc is a compilier to help us build programs. 
+
+Make is a build tool that invokes a compilier in a particular sequence to compile multiple sources and link them together. 
+
+**note when adding parameters use ./foo param1 param2 param3 after running gcc/make
 
 
 

@@ -5,7 +5,7 @@ int main(int argc, char *argv[])
     cout << "Hello, Chakane" << endl;
     cout << "You wont regret it" << endl;
 
-    for(int i = 0; i < argc; i++)
+    for(int i = 0; i < argc; ++i)
     {
         cout << argv[i] << endl;
     }
