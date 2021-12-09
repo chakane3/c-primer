@@ -18,6 +18,19 @@ Heres all the file extensions we could use
 | .i | C source code which isnt preprocessed |
 | .cpp | C++ source code that is preprocessed |
 
+## Compiliers
+The compilier translates high level code into low level code. It can set up memory called, a stack frame. It will give u some erros should it come across one (mainly syntax). The ourput of a compilier is object code. 
+
+The compilier also provides a <b>linker</b> that links object files into an executable.
+
+## Running on macos (VScode)
+Terminal:
+```c++
+make foo
+```
+
+
+
 
 ## Pointer/reference data types
 C++ provides 2 data types that give access to an item of data. 
