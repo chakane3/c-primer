@@ -66,7 +66,7 @@ int main(int argc, char *argv[])
 argc is an integer that tells us how many parameters were passed into the application. argv is an array of pointers to C strings in memory.
 
 
-| chapter | link |
+| chapter | links |
 | --- | --- |
-| Basics |  |
+| Basics | <a href="https://github.com/chakane3/c-primer/tree/main/Basics">link</a> |
 
