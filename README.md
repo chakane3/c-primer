@@ -1,13 +1,23 @@
 # c++ primer
 
-c++ supports<br></br>
+c++ supports
 <ul>
     <li>int - signed integer values</li>
     <li>float - 32 bit floating point values</li>
     <li>double - 64 bit double precision float value</li>
     <li>char - a one byte value</li>
-    <li>void - represents nothing when used as a return type.<li>
+    <li>void - represents nothing when used as a return type </li>
 </ul>
+
+## GCC and File Extensions
+Heres all the file extensions we could use
+| Extension | Meaning |
+| --- | --- |
+| .h | C header file (not compiled or linked) |
+| .c | C source code that is pre processed |
+| .i | C source code which isnt preprocessed |
+| .cpp | C++ source code that is preprocessed |
+
 
 ## Pointer/reference data types
 C++ provides 2 data types that give access to an item of data. 
