@@ -37,10 +37,21 @@ g++ -o foo foo.cpp
 Then we would run ./foo to see output
 
 The difference between make and gcc is that gcc is a compilier to help us build programs. 
-
 Make is a build tool that invokes a compilier in a particular sequence to compile multiple sources and link them together. 
 
 **note when adding parameters use ./foo param1 param2 param3 after running gcc/make
+
+## makefiles
+This is a text file containing the targets, dependencies, and rules for building the targets in the project. Its invoked through the "make" tool. 
+Generally its a series of rules that looks like this:
+
+```
+targets : dependencies  commands
+
+```
+
+The targets are 1 or more files that depend on the dependents (can be a bunch of files). Therefore if one or more of the dependents are newer than one or more of the targets, then the targets need to be built again, which is done by running commands. 
+
 
 
 
@@ -64,6 +75,30 @@ int main(int argc, char *argv[])
 ```
 
 argc is an integer that tells us how many parameters were passed into the application. argv is an array of pointers to C strings in memory.
+
+## making a simple project
+This example goes over typing a name, and the output is the name, time and date; all on the commabnd line.
+
+We need the help of input/out streams, string type, and C time+date functions
+
+Below would be our header file which we can store as <b>utils.h</b>
+```c++
+
+// this file is utils.h
+#include <iostream>
+#include <string>
+#include <ctime>
+
+```
+
+In our source file we can add
+
+```c++
+// this file is utils.cpp
+#include "utils.h"
+```
+
+
 
 
 | chapter | links |
