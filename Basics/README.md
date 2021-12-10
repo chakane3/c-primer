@@ -29,3 +29,24 @@ int main()
 ```
 </details>
 
+## making a simple project
+This example goes over typing a name, and the output is the name, time and date; all on the commabnd line.
+
+We need the help of input/out streams, string type, and C time+date functions
+
+Below would be our header file which we can store as <b>utils.h</b>
+```c++
+
+// this file is utils.h
+#include <iostream>
+#include <string>
+#include <ctime>
+
+```
+
+In our source file we can add
+
+```c++
+// this file is utils.cpp
+#include "utils.h"
+```
