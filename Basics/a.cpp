@@ -7,6 +7,7 @@ int main(int argc, char *argv[])
 
     for(int i = 0; i < argc; ++i)
     {
+        cout<<"This is part of of argv[]: ";
         cout << argv[i] << endl;
     }
     return 0;
