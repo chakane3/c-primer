@@ -24,4 +24,5 @@ Theres other types of header files we can use:
 |math.h|Used to perform mathematical opeations (i.e sqrt(), pow())|
 |time.h|Used to perform functions related to date and time (i.e setdate(), getdate())|
 |ctype.h|Used to perform character type functions like isalpha() and iddigit()|
-More can be found about these header files <link href="https://www.cplusplus.in/c-standard-library/">here</link>
+
+More can be found about these header files <a href="https://www.cplusplus.in/c-standard-library/">here</a>
