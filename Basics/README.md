@@ -1,16 +1,5 @@
 # Basic things
 
-<details>
-<summary>declaring contstants 2</summary>
-
-```c++
-int main() 
-{
-    int NUMBER = 99;
-}
-```
-</details>
-
 ## making a simple project
 This example goes over typing a name, and the output is the name, time and date; all on the commabnd line.
 
@@ -33,9 +22,6 @@ In our source file we can add
 #include "utils.h"
 ```
 
-
-
-
 We can decalre a constant in 2 ways
 
 <details>
@@ -51,6 +37,17 @@ int main()
     {
         cout << NUMBER << endl;
     }
+}
+```
+</details>
+    
+<details>
+<summary>declaring contstants 2</summary>
+
+```c++
+int main() 
+{
+    int NUMBER = 99;
 }
 ```
 </details>
