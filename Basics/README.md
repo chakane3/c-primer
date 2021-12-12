@@ -12,5 +12,11 @@ int main()
 }
 ```
 
-The first thing we see is that we included stdio.g and iostream.
-stdio.h is our standard input and output header file. 
+The first thing we see is that we included <b>stdio.h</b> and iostream.
+Stdio.h is our standard input and output header file. 
+It declares many functions that we can use in our programs. We mainly use this to perform input and output operations. <br></br>
+Theres other types of header files we can use:
+| Header file | Purpose |
+| --- | --- |
+
+
