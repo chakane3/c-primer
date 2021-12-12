@@ -1,7 +1,7 @@
 # Basic things
 
 ## making a simple project
-This example goes over typing a name, and the output is the name, time and date; all on the commabnd line.
+This example goes over typing a name, and the output is the name, time and date; all on the command line.
 
 We need the help of input/out streams, string type, and C time+date functions
 
