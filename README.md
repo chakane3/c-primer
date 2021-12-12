@@ -23,6 +23,15 @@ The compilier translates high level code into low level code. It can set up memo
 
 The compilier also provides a <b>linker</b> that links object files into an executable.
 
+The entire complication would go as this:
+<ul>
+<li>source file</li>
+<li>compilier</li>
+<li>object file (along with other files and libraries)</li>
+<li>linker</li>
+<li>executable file</li>
+</ul>
+
 ## Running on macos (VScode)
 Terminal:
 ```c++
