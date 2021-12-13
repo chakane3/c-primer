@@ -66,6 +66,8 @@ The targets are 1 or more files that depend on the dependents (can be a bunch of
 
 
 ## Pointer/reference data types
+A pointer is just an internal machine address of a value inside the computers memory.
+
 C++ provides 2 data types that give access to an item of data. 
 <b>*</b> is used to specify a pointer data type. This defines a data type that is the <b>address</b> of an item of a specified data type. 
 For example, <b>int *</b> specifies a data type that is the address of an integer<br></br>
