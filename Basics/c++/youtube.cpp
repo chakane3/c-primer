@@ -10,7 +10,16 @@ cout is considered an object which is an instance of "ostream"
 */
 int main()
 {
+
+    using namespace std;
     // << is an operator which feeds an operand to cout
-    std::cout << "Hello, world" << std::endl;
+    cout << "Hello, world" << endl; 
+
+    // getting user input
+    int userInput;
+    cin >> userInput;
+    cout << userInput << endl;
+
+
     return 0;
 }
